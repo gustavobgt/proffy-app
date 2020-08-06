@@ -7,6 +7,8 @@ import studyIcon from '../../assets/images/icons/study.svg';
 import giveClassIcon from '../../assets/images/icons/give-classes.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 
+import './styles.css';
+
 export default function Landing() {
   return (
     <div id="page-landing">
@@ -28,7 +30,7 @@ export default function Landing() {
             Estudar
           </a>
 
-          <a href="" className="study">
+          <a href="" className="give-classes">
             <img src={giveClassIcon} alt="Estudar" />
             Estudar
           </a>
